@@ -19,5 +19,7 @@ while(sair==False):
         os.system('cls')
 
     if(opcao==2):
-        for novo_contato in agenda:
-           print(novo_contato[0])
+        for contato in agenda: #para cada elemento da lista
+            print("\nNome:",contato[0],"Telefone:",contato[1],"\n")
+  
+        
